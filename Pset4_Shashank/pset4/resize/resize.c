@@ -1,17 +1,6 @@
-/**
- * resize.c
- *
- * Computer Science 50
- * Problem Set 4
- *
- * Copies a BMP piece by piece from input file and resizes it.
- */
-       
 #include <stdio.h>
 #include <stdlib.h>
-
 #include "bmp.h"
-
 int main(int argc, char* argv[])
 {
     // ensure proper usage
