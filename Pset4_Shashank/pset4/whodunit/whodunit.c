@@ -1,17 +1,6 @@
-/**
- * whodunit.c
- *
- * Computer Science 50
- * Problem Set 4
- *
- * Copies a BMP piece by piece and converts red pixels to white.
- */
-       
 #include <stdio.h>
 #include <stdlib.h>
-
 #include "bmp.h"
-
 int main(int argc, char* argv[])
 {
     // ensure proper usage
