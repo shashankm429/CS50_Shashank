@@ -1,18 +1,8 @@
-/**
- * recover.c
- *
- * Computer Science 50
- * Problem Set 4
- *
- * Recovers JPEGs from a forensic image.
- */
 #include <stdio.h>
 #include <stdlib.h>
 #include <inttypes.h>
 #include <cs50.h>
-
 typedef uint8_t BYTE;
-
 int main()
 {
     FILE* inptr = fopen("card.raw", "r");
